@@ -1,0 +1,20 @@
+<ion-view>
+    <ion-content>
+        <div class="list">
+            <label class="item item-input">
+                <input ng-model="usuario.nome" type="text" placeholder="Nome">
+            </label>
+            <label class="item item-input">
+                <input ng-model="usuario.email" type="email" placeholder="E-mail">
+            </label>
+            <label class="item item-input">
+                <input ng-model="usuario.senha" type="password" placeholder="Senha">
+            </label>
+            <div class="padding">
+                <button ng-click="cadastrar()" class="button button-full button-positive">
+                    Cadastrar
+                </button>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
